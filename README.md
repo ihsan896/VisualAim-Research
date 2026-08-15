@@ -18,11 +18,7 @@ Bu yazılımı **çevrim içi rekabetçi oyunlarda kullanmayın.**
 
 Yazarı ve katkıda bulunanlar, yazılımın kötüye kullanımından doğacak sonuçlardan sorumlu değildir.
 
----
-
-## Neyi öğretir?
-
-Bu depo, "çalışan bir prototip" ile "gerçek zamanlı çalışan bir sistem" arasındaki farkı gösterir. Öne çıkan konular:
+--
 
 | Konu | Nerede |
 |---|---|
@@ -292,7 +288,6 @@ python test_valorant_profile.py    # profil dosyası doğrulaması
 
 Bu bir öğrenme projesidir. Hata bildirimleri ve iyileştirme önerileri açıktır; ancak **hile önleme sistemlerini atlatmaya yönelik katkılar kabul edilmez.**
 
-Lisans belirtilmemiştir. Eklemeyi planlıyorsanız, bu tür projeler için genellikle kullanımı kısıtlayıcı bir lisans (veya "yalnızca eğitim amaçlı" ibaresi) tercih edilir.
 
 ---
 
