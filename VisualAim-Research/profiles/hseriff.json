@@ -1,0 +1,287 @@
+{
+    "profile_name": "hseriff",
+    "description": "hseriff",
+    "version": "2.0.0",
+    "_meta": {
+        "name": "hseriff",
+        "created": "2026-08-13 12:54:03",
+        "source": "ConfigManager.save_profile"
+    },
+    "color_detection": {
+        "ranges": [
+            {
+                "lower": [
+                    0,
+                    150,
+                    150
+                ],
+                "upper": [
+                    10,
+                    255,
+                    255
+                ]
+            },
+            {
+                "lower": [
+                    170,
+                    150,
+                    150
+                ],
+                "upper": [
+                    179,
+                    255,
+                    255
+                ]
+            }
+        ],
+        "filters": {
+            "min_area": 30,
+            "max_area": 5000
+        }
+    },
+    "aim_settings": {
+        "enabled": true,
+        "mode": "smooth",
+        "speed": 0.39999999999999997,
+        "smoothing": 0.15,
+        "fov": {
+            "radius_x": 250
+        },
+        "head_offset": {
+            "value": 0.43
+        },
+        "y_speed_multiplier": 1.0
+    },
+    "kalman_settings": {
+        "enabled": true,
+        "process_noise": 0.05,
+        "measurement_noise": 0.1,
+        "max_predictions": 15
+    },
+    "trigger_settings": {
+        "enabled": true,
+        "mode": "hold",
+        "threshold": 9,
+        "delay": {
+            "min_ms": 20,
+            "max_ms": 60
+        },
+        "first_shot_delay_ms": 0
+    },
+    "recoil_settings": {
+        "enabled": true,
+        "compensation": {
+            "strength": 1.0,
+            "recover": 0.0
+        }
+    },
+    "anti_detection": {
+        "humanization": {
+            "enabled": true,
+            "aim_jitter": 1.0
+        }
+    },
+    "performance": {
+        "capture_fps": 60
+    },
+    "debug": {
+        "enabled": true,
+        "show_target": true,
+        "save_screenshots": false
+    },
+    "_ini_snapshot": {
+        "general": {
+            "app_name": "VisualAim-Research",
+            "version": "5.0.0",
+            "profile_active": "valorant",
+            "auto_start": "false"
+        },
+        "capture": {
+            "backend": "dxcam",
+            "target_fps": "60",
+            "buffer_size": "3",
+            "fov_x": "400",
+            "fov_y": "400",
+            "offset_x": "0",
+            "offset_y": "0",
+            "screen_width": "1920",
+            "screen_height": "1080",
+            "show_fps": "true"
+        },
+        "color": {
+            "lower_h": "0",
+            "lower_s": "150",
+            "lower_v": "150",
+            "upper_h": "10",
+            "upper_s": "255",
+            "upper_v": "255",
+            "lower_h2": "170",
+            "lower_s2": "150",
+            "lower_v2": "150",
+            "upper_h2": "180",
+            "upper_s2": "255",
+            "upper_v2": "255",
+            "min_blob_size": "30",
+            "max_blob_size": "5000",
+            "min_solidity": "0.6",
+            "min_aspect_ratio": "0.25",
+            "max_aspect_ratio": "4.0",
+            "blur_kernel_x": "5",
+            "blur_kernel_y": "5",
+            "morph_open_kernel": "3",
+            "morph_close_kernel": "5",
+            "morph_iterations": "2"
+        },
+        "aim": {
+            "enabled": "true",
+            "mode": "smooth",
+            "speed": "0.39999999999999997",
+            "smoothing": "0.15",
+            "fov_enabled": "true",
+            "fov_radius": "250",
+            "fov_radius_x": "250",
+            "fov_radius_y": "250",
+            "fov_visualization": "false",
+            "head_offset": "0.43",
+            "head_tracking": "true",
+            "speed_x": "450",
+            "speed_y": "450",
+            "y_multiplier": "1.0",
+            "hybrid_threshold": "150"
+        },
+        "kalman": {
+            "enabled": "true",
+            "dt": "0.0167",
+            "process_noise": "0.05",
+            "measurement_noise": "0.1",
+            "initial_covariance": "1.0",
+            "max_prediction_frames": "15",
+            "max_prediction_age": "10",
+            "confidence_decay": "0.95",
+            "association_threshold": "200"
+        },
+        "trigger": {
+            "enabled": "true",
+            "mode": "hold_key",
+            "activation_key": "0x06",
+            "threshold": "9",
+            "delay_min": "20",
+            "delay_max": "60",
+            "randomization": "true",
+            "first_shot_delay": "0",
+            "burst_mode": "false",
+            "burst_count": "1"
+        },
+        "recoil": {
+            "enabled": "true",
+            "mode": "move",
+            "active_weapon": "sheriff",
+            "compensation_y": "1.5000000000000004",
+            "compensation_x": "1.0",
+            "strength": "1.0",
+            "randomization": "0.1",
+            "max_offset": "100",
+            "recovery_rate": "0.0"
+        },
+        "weapon_vandal": {
+            "name": "Vandal",
+            "fire_rate": "9.75",
+            "pattern": "[[0,0],[0,-2],[1,-3],[1,-4],[2,-4],[2,-5],[3,-5],[3,-6],[4,-6],[4,-6],[4,-5],[3,-5],[3,-4],[2,-4],[2,-3],[1,-3],[1,-2],[0,-2],[0,-1],[-1,-1],[-1,0],[-1,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]]"
+        },
+        "weapon_phantom": {
+            "name": "Phantom",
+            "fire_rate": "11.0",
+            "pattern": "[[0,0],[0,-1],[1,-2],[1,-2],[1,-3],[2,-3],[2,-3],[2,-4],[2,-4],[3,-4],[3,-4],[3,-3],[2,-3],[2,-3],[1,-2],[1,-2],[0,-1],[0,-1],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]]"
+        },
+        "weapon_spectre": {
+            "name": "Spectre",
+            "fire_rate": "13.33",
+            "pattern": "[[0,0],[0,-1],[1,-1],[1,-2],[2,-2],[2,-2],[2,-3],[3,-3],[3,-3],[3,-2],[3,-2],[2,-2],[2,-1],[1,-1],[1,0],[0,0],[0,0],[0,0],[0,0],[0,0]]"
+        },
+        "weapon_sheriff": {
+            "name": "Sheriff",
+            "fire_rate": "4.0",
+            "pattern": "[[0,0]]"
+        },
+        "weapon_guardian": {
+            "name": "Guardian",
+            "fire_rate": "5.0",
+            "pattern": "[[0,0],[0,-1]]"
+        },
+        "weapon_stinger": {
+            "name": "Stinger",
+            "fire_rate": "16.0",
+            "pattern": "[[0,0],[1,-2],[2,-3],[2,-4],[3,-4],[3,-5],[4,-5],[4,-4],[3,-4],[3,-3],[2,-3],[2,-2],[1,-2],[1,-1],[0,-1],[0,0],[0,0],[0,0],[0,0],[0,0]]"
+        },
+        "input": {
+            "movement_type": "relative",
+            "speed_x": "350",
+            "speed_y": "350",
+            "y_multiplier": "1.0",
+            "micro_jitter": "True",
+            "jitter_amount": "1.0",
+            "jitter_min": "0.5",
+            "jitter_max": "2.0",
+            "curve_variation": "0.05"
+        },
+        "humanization": {
+            "enabled": "true",
+            "aim_jitter": "2.0",
+            "timing_randomization": "0.1",
+            "reaction_delay_min": "50",
+            "reaction_delay_max": "150",
+            "overshoot_enabled": "true",
+            "overshoot_amount": "0.05",
+            "click_delay_min": "50",
+            "click_delay_max": "150"
+        },
+        "profile": {
+            "active": "balanced",
+            "auto_apply": "true"
+        },
+        "hotkeys": {
+            "aim_toggle": "F2",
+            "recoil_toggle": "F3",
+            "trigger_toggle": "F3",
+            "exit": "F4",
+            "reload_config": "F5",
+            "aim_key": "LeftMouse",
+            "trigger_key": "RightMouse"
+        },
+        "screen": {
+            "auto_detect": "true",
+            "resolution_x": "1920",
+            "resolution_y": "1080",
+            "capture_region": "fullscreen",
+            "capture_fov_x": "1920",
+            "capture_fov_y": "1080"
+        },
+        "debug": {
+            "enabled": "True",
+            "show_mask": "false",
+            "show_contours": "false",
+            "show_target": "false",
+            "show_overlay": "True",
+            "log_level": "INFO",
+            "log_detections": "false",
+            "save_screenshots": "false"
+        },
+        "metrics": {
+            "enabled": "true",
+            "save_interval": "60",
+            "file_format": "json",
+            "track_fps": "true",
+            "track_latency": "true",
+            "track_detections": "true",
+            "track_accuracy": "true"
+        },
+        "advanced": {
+            "capture_thread_priority": "normal",
+            "processing_thread_count": "2",
+            "max_frame_buffer": "3",
+            "gc_interval": "300",
+            "max_consecutive_errors": "10",
+            "error_recovery_delay": "5"
+        }
+    }
+}

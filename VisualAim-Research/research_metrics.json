@@ -1,0 +1,21 @@
+{
+  "last_updated": "2024-01-15T10:30:00",
+  "sessions": [
+    {
+      "start_time": "2024-01-15T10:30:00",
+      "session_id": "valorant_session_001",
+      "profile": "valorant",
+      "description": "Valorant görsel hedef tespit araştırması",
+      "metrics": []
+    }
+  ],
+  "summary": {
+    "total_sessions": 0,
+    "total_runtime_seconds": 0,
+    "avg_fps": 0,
+    "total_detections": 0,
+    "total_shots_fired": 0,
+    "total_shots_hit": 0,
+    "accuracy_rate": 0
+  }
+} 

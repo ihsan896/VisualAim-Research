@@ -1,0 +1,28 @@
+# VisualAim-Research - Python 3.13
+# Kurulum:  python -m pip install -r requirements.txt
+
+# --- core/capture.py ---
+numpy==2.4.6
+opencv-python==5.0.0.93
+pillow==12.3.0          # PIL fallback backend (ImageGrab)
+dxcam==0.3.0            # DXGI donanim hizlandirmali yakalama (Windows)
+comtypes==1.4.16        # dxcam bagimliligi; Py3.13'te 1.4.x serisi sart
+                        # (1.1.x import bile edilemiyor). 1.4.x'in dxcam ile
+                        # urettigi zararsiz access-violation gurultusu
+                        # core/capture.py'deki unraisablehook ile filtreleniyor.
+mss==10.2.0             # yazilimsal ekran yakalama
+
+# --- core/trigger.py ---
+keyboard==0.13.5        # trigger.py test blogu (toggle/cikis tuslari)
+
+# --- main.py: oyun tespiti ---
+psutil==7.2.2           # oyun exe adiyla tespit (GetForegroundWindow -> PID -> exe).
+                        # Kurulu degilse sistem pencere basligina duser, cokmez.
+
+# --- diger modüller henüz bos; ihtiyac olustukca acin ---
+# PyQt5==5.15.11             # ui/menu.py
+# pynput==1.8.2              # modules/hotkey_manager.py
+# PyAutoGUI==0.9.54          # core/input_controller.py
+# interception-python==1.13.6
+# pywin32==312
+# psutil==7.2.2              # modules/performance_profiles.py

@@ -1,0 +1,26 @@
+  
+2026-08-13 11:43:37 | INFO     | logger:info:462 | Logger başlatıldı: bot_logs.txt
+2026-08-13 11:43:37 | INFO     | logger:info:462 | [PerformanceProfiles] Initialized
+2026-08-13 11:43:37 | INFO     | logger:info:462 | [PerformanceProfiles] Intel Iris Xe detected - optimized profiles loaded
+2026-08-13 11:48:27 | [38;5;82mINFO[0m | [36mlogger[0m:info:462 | Logger başlatıldı: bot_logs.txt
+2026-08-13 11:48:27 | [38;5;82mINFO[0m | [36mlogger[0m:info:462 | ======================================================================
+2026-08-13 11:48:27 | [38;5;82mINFO[0m | [36mlogger[0m:info:462 | VisualAim-Research v5.0 - Başlatılıyor
+2026-08-13 11:48:27 | [38;5;82mINFO[0m | [36mlogger[0m:info:462 | Akademik Savunma Araştırması - Görsel Hedef Tespit Sistemi
+2026-08-13 11:48:27 | [38;5;82mINFO[0m | [36mlogger[0m:info:462 | ======================================================================
+2026-08-13 11:48:27 | [38;5;82mINFO[0m | [36mlogger[0m:info:462 | [PerformanceProfiles] Initialized
+2026-08-13 11:48:27 | [38;5;82mINFO[0m | [36mlogger[0m:info:462 | [PerformanceProfiles] Intel Iris Xe detected - optimized profiles loaded
+2026-08-13 11:48:27 | [38;5;46mSUCCESS[0m | [36mlogger[0m:success:465 | [PerformanceProfiles] Profile applied: BALANCED
+2026-08-13 11:48:27 | [38;5;82mINFO[0m | [36mlogger[0m:info:462 | [PerformanceProfiles] Target FPS: 60, Aim Speed: 0.35, Jitter: 1.0px
+2026-08-13 11:48:27 | [38;5;82mINFO[0m | [36mlogger[0m:info:462 | [PerformanceProfiles] Intel Iris Xe optimizations applied
+2026-08-13 11:48:27 | [38;5;82mINFO[0m | [36mlogger[0m:info:462 | [Main] ScreenCapture başlatıldı: dxcam @ 60 FPS
+2026-08-13 11:48:58 | [38;5;82mINFO[0m | [36mlogger[0m:info:462 | Logger başlatıldı: bot_logs.txt
+2026-08-13 11:48:58 | [38;5;82mINFO[0m | [36mlogger[0m:info:462 | ======================================================================
+2026-08-13 11:48:58 | [38;5;82mINFO[0m | [36mlogger[0m:info:462 | VisualAim-Research v5.0 - Başlatılıyor
+2026-08-13 11:48:58 | [38;5;82mINFO[0m | [36mlogger[0m:info:462 | Akademik Savunma Araştırması - Görsel Hedef Tespit Sistemi
+2026-08-13 11:48:58 | [38;5;82mINFO[0m | [36mlogger[0m:info:462 | ======================================================================
+2026-08-13 11:48:58 | [38;5;82mINFO[0m | [36mlogger[0m:info:462 | [PerformanceProfiles] Initialized
+2026-08-13 11:48:58 | [38;5;82mINFO[0m | [36mlogger[0m:info:462 | [PerformanceProfiles] Intel Iris Xe detected - optimized profiles loaded
+2026-08-13 11:48:58 | [38;5;46mSUCCESS[0m | [36mlogger[0m:success:465 | [PerformanceProfiles] Profile applied: BALANCED
+2026-08-13 11:48:58 | [38;5;82mINFO[0m | [36mlogger[0m:info:462 | [PerformanceProfiles] Target FPS: 60, Aim Speed: 0.35, Jitter: 1.0px
+2026-08-13 11:48:58 | [38;5;82mINFO[0m | [36mlogger[0m:info:462 | [PerformanceProfiles] Intel Iris Xe optimizations applied
+2026-08-13 11:48:59 | [38;5;82mINFO[0m | [36mlogger[0m:info:462 | [Main] ScreenCapture başlatıldı: dxcam @ 60 FPS
